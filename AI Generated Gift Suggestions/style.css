@@ -1,0 +1,115 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-image: url("giftbg.jpg");
+    background-size: cover;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+h1 {
+    color: rgb(134, 231, 85);
+}
+
+h2 {
+    color: turquoise
+}
+
+h2:hover {
+    text-decoration: underline yellow;
+}
+
+.description p {
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: yellow;
+}
+.form input, label{
+    margin-bottom: 1rem;
+}
+
+.form label {
+    font-size: 1.5rem;
+}
+
+.form input {
+    border: 0.1rem solid black;
+    width: 30rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(236, 228, 206);
+}
+
+.form button {
+    height: 2.2rem;
+    border: 0.1rem black solid;
+    border-radius: 0.5rem;
+    color: black;
+    background-color: rgb(114, 240, 208);
+}
+
+button:hover {
+    box-shadow: white 0rem 0rem 0.1rem 0.1rem;
+}
+
+input:hover {
+    box-shadow: white 0rem 0rem 0.1rem 0.1rem;
+}
+
+footer {
+    align-self: center;
+}
+
+.list-inline {
+    display: flex;
+}
+
+.list-inline a {
+    margin-left: -0rem;
+    margin-right: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.first-gift, .second-gift, .third-gift, .fourth-gift, .fifth-gift {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background-color: antiquewhite;
+    width: 50rem;
+    margin-left: 20rem;
+}
+
+.gift-name {
+    color: black;
+}
+
+.buy-btn {
+    margin-left: 1rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(128, 162, 241);
+}
+
+.gaming-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    border-radius: 0.5rem;
+    background-image: url("suggestionGift.jpg");
+    background-size: cover;
+}
+
+.gift-name h2 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gaming-main h1 {
+    color: blue;
+    margin-left: 30rem;
+}
